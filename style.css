@@ -1,0 +1,1000 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  .parentDiv {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .childDiv1 {
+    width: 100%;
+    height: 200px;
+  }
+  
+  .navBar1 {
+    background-color: #e21b70;
+    color: white;
+    width: 100%;
+    height: 35%;
+    display: flex;
+    /* padding: 10px; */
+  }
+  
+  .heading3 {
+    margin: 40%;
+    margin-top: 15px;
+  }
+  
+  .btn {
+    color: white;
+    border: 1px solid white;
+    background-color: #e21b70;
+    height: 45px;
+    width: 120px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 8px;
+    margin-left: -39%;
+  }
+  
+  /* child div 2 */
+  .childDiv2 {
+      width: 100%;
+      height: 200px;
+    }
+   .navBar2 {
+    background-color:white;
+    margin-top: -8.5%;
+    color:#e21b70;
+    width: 100%;
+    height: 35%;
+    display: flex;
+    border: 1px solid white;
+    box-shadow: 0px 0.10px 10px silver;
+    
+  }
+  
+  .panda{
+      width: 35px;
+      height: 35px;
+      margin-top:15px;
+      margin-left: 30px;
+      margin-right: 10px;
+      border: 1px solid transparent;
+      border-radius: 5px;
+  }
+  
+  .heading2{
+      margin-top:20px;
+  }
+  
+  .childDiv3{
+  
+      /* height: 50%; */
+      display: flex;
+  }
+  .para1{
+      font-size: 40px;
+      margin-top: 80px;
+      margin-left: 100px;
+  }
+  
+  .box{
+      height: 80px;
+      width: 550px;
+      margin-left:100px;
+      margin-top: 40px;
+      color: white;
+      border-radius:10px;
+      box-shadow: 0px 0.10px 10px silver;
+      
+  }
+  
+  .boxInput{
+      border: 1px solid silver;
+      color: gray;
+      border-radius: 10px;
+      height: 50px;
+      width: 400px;
+      padding: 5px;
+      padding-left: 25px;
+      margin-left: 20px;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      font-size: medium;
+  }
+  
+  
+  .findFoodBtn{
+      background-color: #e21b70;
+      color: white;
+      border: 1px solid #e21b70;
+      border-radius: 10px;
+      height: 50px;
+      width: 100px;
+      padding: 5px;
+      padding-left: 10px;
+      padding-right: 10px;
+      margin-left: 15px;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      font-size: medium;
+  }
+  
+  .foodPandaImg{
+      margin-left: 15%;
+      margin-top: -20%;
+  }
+  
+  /* second main div styling start */
+  
+  .secondMainDivimg{
+      height: 400px;
+      margin-bottom: 70px;
+      margin-top: 220px;
+      background-image: url(./Images/home-vendor-pk.jpg);
+      background-repeat: no-repeat;
+  }
+  .secondMainDivtext{
+      font-size: 30px;
+      margin-left: 90px;
+      margin-bottom: -190px;
+      margin-top: 100px;
+  }
+  
+  .getStartedBox{
+      height: 320px;
+      width: 620px;
+      margin-left:100px;
+      margin-top: -200px;
+      color: black;
+      background-color: white;
+      border-radius:10px;
+      box-shadow: 0px 0.10px 10px silver;
+      margin-bottom: 50px;
+  }
+  
+  .getStartedBoxtext1{
+      font-size: 20px;
+      margin-left: 30px;
+      padding-top: 20px;
+  }
+  
+  .getStartedBoxtext2{
+      margin-left: 30px;
+      padding-top: 30px;
+  
+  }
+  
+  .getStarted{
+      background-color: #e21b70;
+      color: white;
+      border: 1px solid #e21b70;
+      border-radius: 8px;
+      height: 45px;
+      width: 110px;
+      padding: 5px;
+      padding-left: 5px;
+      padding-right: 5px;
+      margin-left: 30px;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      font-size: medium;
+      font-weight: bold;
+      
+  }
+  
+  .findUs{
+      font-size: 30px;
+      margin-top: 80px;
+      margin-left: 100px;
+  }
+  
+  .thirdChildDiv{
+      display: flex;
+  }
+  
+  .thirdChildDiv1{
+      margin-left: 100px;
+      /* margin-right: 100px; */
+      margin-right: 20px;
+      margin-top: 30px;
+      border: 1px solid transparent;
+      /* border-radius: 10px;  */
+      /* padding-right: 20px; */
+      /* background-color:black; */
+      /* height: 249px; */
+      height: 260px;
+      width: 320px;
+      border-radius: 10px;
+      background-image: url("https://images.deliveryhero.io/image/foodpanda/city-tile-pk/Islamabad.jpg?width=410");
+      background-repeat: no-repeat;
+  
+  }
+  
+  .thirdChildDivr{
+      margin-left: 100px;
+      /* margin-right: 100px; */
+      margin-right: 20px;
+      margin-top: 30px;
+      border: 1px solid transparent;
+      /* border-radius: 10px;  */
+      /* padding-right: 20px; */
+      /* background-color:black; */
+      /* height: 249px; */
+      height: 260px;
+      width: 320px;
+      border-radius: 10px;
+      background-image: url("	https://images.deliveryhero.io/image/foodpanda/city-tile-pk/Rawalpindi.jpg?width=400");
+      background-repeat: no-repeat;
+  
+  }
+  
+  .thirdChildDivg{
+      margin-left: 100px;
+      /* margin-right: 100px; */
+      margin-right: 20px;
+      margin-top: 30px;
+      border: 1px solid transparent;
+      /* border-radius: 10px;  */
+      /* padding-right: 20px; */
+      /* background-color:black; */
+      /* height: 249px; */
+      height: 260px;
+      width: 320px;
+      border-radius: 10px;
+      background-image: url("	https://images.deliveryhero.io/image/fd-pk/city-tile/city-tile-Gujranwala.jpg?width=400");
+      background-repeat: no-repeat;
+  
+  }
+  
+  .thirdChildDivk{
+      margin-left: 100px;
+      /* margin-right: 100px; */
+      margin-right: 20px;
+      margin-top: 30px;
+      border: 1px solid transparent;
+      /* border-radius: 10px;  */
+      /* padding-right: 20px; */
+      /* background-color:black; */
+      /* height: 249px; */
+      height: 260px;
+      width: 320px;
+      border-radius: 10px;
+      background-image: url("	https://images.deliveryhero.io/image/fd-pk/city-tile/city-tile-Kamoke.jpg?width=400");
+      background-repeat: no-repeat;
+  
+  }
+  
+  .thirdChildDivm{
+      margin-left: 100px;
+      /* margin-right: 100px; */
+      margin-right: 20px;
+      margin-top: 30px;
+      border: 1px solid transparent;
+      /* border-radius: 10px;  */
+      /* padding-right: 20px; */
+      /* background-color:black; */
+      /* height: 249px; */
+      height: 260px;
+      width: 320px;
+      border-radius: 10px;
+      background-image: url("https://images.deliveryhero.io/image/foodpanda/city-tile-pk/Multan.jpg?width=400");
+      background-repeat: no-repeat;
+  
+  }
+      .thirdChildDivp{
+          margin-left: 100px;
+          /* margin-right: 100px; */
+          margin-right: 20px;
+          margin-top: 30px;
+          border: 1px solid transparent;
+          /* border-radius: 10px;  */
+          /* padding-right: 20px; */
+          /* background-color:black; */
+          /* height: 249px; */
+          height: 260px;
+          width: 320px;
+          border-radius: 10px;
+          background-image: url("	https://images.deliveryhero.io/image/foodpanda/city-tile-pk/Peshawar.jpg?width=400");
+          background-repeat: no-repeat;
+      }
+  
+          .thirdChildDivsa{
+              margin-left: 100px;
+              /* margin-right: 100px; */
+              margin-right: 20px;
+              margin-top: 30px;
+              border: 1px solid transparent;
+              /* border-radius: 10px;  */
+              /* padding-right: 20px; */
+              /* background-color:black; */
+              /* height: 249px; */
+              height: 260px;
+              width: 320px;
+              border-radius: 10px;
+              background-image: url("https://images.deliveryhero.io/image/fd-pk/city-tile/city-tile-Sahiwal.jpg?width=400");
+              background-repeat: no-repeat;
+          }
+  
+              .thirdChildDivs{
+                  margin-left: 100px;
+                  /* margin-right: 100px; */
+                  margin-right: 20px;
+                  margin-top: 30px;
+                  border: 1px solid transparent;
+                  /* border-radius: 10px;  */
+                  /* padding-right: 20px; */
+                  /* background-color:black; */
+                  /* height: 249px; */
+                  height: 260px;
+                  width: 320px;
+                  border-radius: 10px;
+                  background-image: url("https://images.deliveryhero.io/image/foodpanda/city-tile-pk/Sukkur.jpg?width=400");
+                  background-repeat: no-repeat;
+              }
+              
+  
+  
+  /* .thirdChildDiv1 img{
+      margin-top: 10px;
+      margin-bottom: 10px;
+      border: 1px solid transparent;
+      border-radius: 10px;
+  } */
+  
+  .thirdChildDiv1-k{
+      /* margin-left: 100px; */
+      /* margin-right: 100px; */
+      margin-top: 30px;
+      border: 1px solid transparent;
+      border-radius: 10px; 
+      /* padding-right: 20px; */
+      margin-right: 20px;
+      /* background-color:black; */
+      /* height: 249px; */
+      height: 260px;
+      width: 320px;
+      border-radius: 10px;
+      background-image: url("	https://images.deliveryhero.io/image/foodpanda/city-tile-pk/Karachi.jpg?width=400");
+      background-repeat: no-repeat;
+  
+  }
+  
+  .thirdChildDiv1-L{
+      /* margin-left: 100px; */
+      /* margin-right: 100px; */
+      margin-top: 30px;
+      border: 1px solid transparent;
+      border-radius: 10px; 
+      /* padding-right: 20px; */
+      margin-right: 20px;
+      /* background-color:black; */
+      /* height: 249px; */
+      height: 260px;
+      width: 320px;
+      border-radius: 10px;
+      background-image: url("https://images.deliveryhero.io/image/foodpanda/city-tile-pk/Lahore.jpg?width=400");
+      background-repeat: no-repeat;
+  
+  }
+  
+  .thirdChildDiv1-F{
+      /* margin-left: 100px; */
+      /* margin-right: 100px; */
+      margin-top: 30px;
+      border: 1px solid transparent;
+      border-radius: 10px; 
+      /* padding-right: 20px; */
+      margin-right: 20px;
+      /* background-color:black; */
+      /* height: 249px; */
+      height: 260px;
+      width: 320px;
+      border-radius: 10px;
+      background-image: url("https://images.deliveryhero.io/image/foodpanda/city-tile-pk/Faisalabad.jpg?width=400");
+      background-repeat: no-repeat;
+  
+  }
+  
+  .thirdChildDiv1-A{
+      /* margin-left: 100px; */
+      /* margin-right: 100px; */
+      margin-top: 30px;
+      border: 1px solid transparent;
+      border-radius: 10px; 
+      /* padding-right: 20px; */
+      margin-right: 20px;
+      /* background-color:black; */
+      /* height: 249px; */
+      height: 260px;
+      width: 320px;
+      border-radius: 10px;
+      background-image: url("	https://images.deliveryhero.io/image/fd-pk/city-tile/city-tile-Abottabad.jpg?width=400");
+      background-repeat: no-repeat;
+  
+  }
+  
+  .thirdChildDiv1-B{
+      /* margin-left: 100px; */
+      /* margin-right: 100px; */
+      margin-top: 30px;
+      border: 1px solid transparent;
+      border-radius: 10px; 
+      /* padding-right: 20px; */
+      margin-right: 20px;
+      /* background-color:black; */
+      /* height: 249px; */
+      height: 260px;
+      width: 320px;
+      border-radius: 10px;
+      background-image: url("	https://images.deliveryhero.io/image/fd-pk/city-tile/city-tile-Bahawalpur.jpg?width=400");
+      background-repeat: no-repeat;
+  
+  }
+  
+  .thirdChildDiv1-De{
+      /* margin-left: 100px; */
+      /* margin-right: 100px; */
+      margin-top: 30px;
+      border: 1px solid transparent;
+      border-radius: 10px; 
+      /* padding-right: 20px; */
+      margin-right: 20px;
+      /* background-color:black; */
+      /* height: 249px; */
+      height: 260px;
+      width: 320px;
+      border-radius: 10px;
+      background-image: url("	https://images.deliveryhero.io/image/fd-pk/city-tile/city-tile-DeraGhaziKhan.jpg?width=400");
+      background-repeat: no-repeat;
+  
+  }
+  
+  .thirdChildDiv1-G{
+      /* margin-left: 100px; */
+      /* margin-right: 100px; */
+      margin-top: 30px;
+      border: 1px solid transparent;
+      border-radius: 10px; 
+      /* padding-right: 20px; */
+      margin-right: 20px;
+      /* background-color:black; */
+      /* height: 249px; */
+      height: 260px;
+      width: 320px;
+      border-radius: 10px;
+      background-image: url("	https://images.deliveryhero.io/image/fd-pk/city-tile/city-tile-Gujrat.jpg.jpg?width=400");
+      background-repeat: no-repeat;
+  
+  }
+  
+  .thirdChildDiv1-H{
+      /* margin-left: 100px; */
+      /* margin-right: 100px; */
+      margin-top: 30px;
+      border: 1px solid transparent;
+      border-radius: 10px; 
+      /* padding-right: 20px; */
+      margin-right: 20px;
+      /* background-color:black; */
+      /* height: 249px; */
+      height: 260px;
+      width: 320px;
+      border-radius: 10px;
+      background-image: url("https://images.deliveryhero.io/image/foodpanda/city-tile-pk/Hyderabad.jpg?width=400");
+      background-repeat: no-repeat;
+  
+  }
+  
+  .thirdChildDiv1-J{
+      /* margin-left: 100px; */
+      /* margin-right: 100px; */
+      margin-top: 30px;
+      border: 1px solid transparent;
+      border-radius: 10px; 
+      /* padding-right: 20px; */
+      margin-right: 20px;
+      /* background-color:black; */
+      /* height: 249px; */
+      height: 260px;
+      width: 320px;
+      border-radius: 10px;
+      background-image: url("	https://images.deliveryhero.io/image/fd-pk/city-tile/city-tile-Jhelum.jpg?width=400");
+      background-repeat: no-repeat;
+  
+  }
+  
+  .thirdChildDiv1-L{
+      /* margin-left: 100px; */
+      /* margin-right: 100px; */
+      margin-top: 30px;
+      border: 1px solid transparent;
+      border-radius: 10px; 
+      /* padding-right: 20px; */
+      margin-right: 20px;
+      /* background-color:black; */
+      /* height: 249px; */
+      height: 260px;
+      width: 320px;
+      border-radius: 10px;
+      background-image: url("	https://images.deliveryhero.io/image/fd-pk/city-tile/city-tile-Larkana.jpg?width=400");
+      background-repeat: no-repeat;
+  
+  }
+  
+  .thirdChildDiv1-Ma{
+      /* margin-left: 100px; */
+      /* margin-right: 100px; */
+      margin-top: 30px;
+      border: 1px solid transparent;
+      border-radius: 10px; 
+      /* padding-right: 20px; */
+      margin-right: 20px;
+      /* background-color:black; */
+      /* height: 249px; */
+      height: 260px;
+      width: 320px;
+      border-radius: 10px;
+      background-image: url("	https://images.deliveryhero.io/image/fd-pk/city-tile/city-tile-Mangla.jpg?width=400");
+      background-repeat: no-repeat;
+  
+  }
+  
+  .thirdChildDiv1-Mar{
+      /* margin-left: 100px; */
+      /* margin-right: 100px; */
+      margin-top: 30px;
+      border: 1px solid transparent;
+      border-radius: 10px; 
+      /* padding-right: 20px; */
+      margin-right: 20px;
+      /* background-color:black; */
+      /* height: 249px; */
+      height: 260px;
+      width: 320px;
+      border-radius: 10px;
+      background-image: url("	https://images.deliveryhero.io/image/fd-pk/city-tile/city-tile-Mardan.jpg?width=400");
+      background-repeat: no-repeat;
+  
+  }
+  
+  .thirdChildDiv1-Mur{
+      /* margin-left: 100px; */
+      /* margin-right: 100px; */
+      margin-top: 30px;
+      border: 1px solid transparent;
+      border-radius: 10px; 
+      /* padding-right: 20px; */
+      margin-right: 20px;
+      /* background-color:black; */
+      /* height: 249px; */
+      height: 260px;
+      width: 320px;
+      border-radius: 10px;
+      background-image: url("https://images.deliveryhero.io/image/fd-pk/city-tile/city-tile-Murree.jpg?width=400");
+      background-repeat: no-repeat;
+  
+  }
+  
+  .thirdChildDiv1-O{
+      /* margin-left: 100px; */
+      /* margin-right: 100px; */
+      margin-top: 30px;
+      border: 1px solid transparent;
+      border-radius: 10px; 
+      /* padding-right: 20px; */
+      margin-right: 20px;
+      /* background-color:black; */
+      /* height: 249px; */
+      height: 260px;
+      width: 320px;
+      border-radius: 10px;
+      background-image: url("	https://images.deliveryhero.io/image/fd-pk/city-tile/city-tile-Okara.jpg?width=400");
+      background-repeat: no-repeat;
+  
+  }
+  
+  .thirdChildDiv1-P{
+      /* margin-left: 100px; */
+      /* margin-right: 100px; */
+      margin-top: 30px;
+      border: 1px solid transparent;
+      border-radius: 10px; 
+      /* padding-right: 20px; */
+      margin-right: 20px;
+      /* background-color:black; */
+      /* height: 249px; */
+      height: 260px;
+      width: 320px;
+      border-radius: 10px;
+      background-image: url("https://images.deliveryhero.io/image/fd-pk/city-tile/city-tile-PanoAqil.jpg?width=400");
+      background-repeat: no-repeat;
+  
+  }
+  
+  .thirdChildDiv1-Q{
+      /* margin-left: 100px; */
+      /* margin-right: 100px; */
+      margin-top: 30px;
+      border: 1px solid transparent;
+      border-radius: 10px; 
+      /* padding-right: 20px; */
+      margin-right: 20px;
+      /* background-color:black; */
+      /* height: 249px; */
+      height: 260px;
+      width: 320px;
+      border-radius: 10px;
+      background-image: url("https://images.deliveryhero.io/image/fd-pk/city-tile/city-tile-Quetta.jpg?width=400");
+      background-repeat: no-repeat;
+  
+  }
+  
+  .thirdChildDiv1-RY{
+      /* margin-left: 100px; */
+      /* margin-right: 100px; */
+      margin-top: 30px;
+      border: 1px solid transparent;
+      border-radius: 10px; 
+      /* padding-right: 20px; */
+      margin-right: 20px;
+      /* background-color:black; */
+      /* height: 249px; */
+      height: 260px;
+      width: 320px;
+      border-radius: 10px;
+      background-image: url("https://images.deliveryhero.io/image/fd-pk/city-tile/city-tile-RahimYarKhan.jpg?width=400");
+      background-repeat: no-repeat;
+  
+  }
+  
+  .thirdChildDiv1-Sad{
+      /* margin-left: 100px; */
+      /* margin-right: 100px; */
+      margin-top: 30px;
+      border: 1px solid transparent;
+      border-radius: 10px; 
+      /* padding-right: 20px; */
+      margin-right: 20px;
+      /* background-color:black; */
+      /* height: 249px; */
+      height: 260px;
+      width: 320px;
+      border-radius: 10px;
+      background-image: url("	https://images.deliveryhero.io/image/fd-pk/city-tile/city-tile-Sadiqabad.jpg?width=400");
+      background-repeat: no-repeat;
+  
+  }
+  
+  .thirdChildDiv1-Sa{
+      /* margin-left: 100px; */
+      /* margin-right: 100px; */
+      margin-top: 30px;
+      border: 1px solid transparent;
+      border-radius: 10px; 
+      /* padding-right: 20px; */
+      margin-right: 20px;
+      /* background-color:black; */
+      /* height: 249px; */
+      height: 260px;
+      width: 320px;
+      border-radius: 10px;
+      background-image: url("https://images.deliveryhero.io/image/fd-pk/city-tile/city-tile-Sahiwal.jpg?width=400");
+      background-repeat: no-repeat;
+  
+  }
+  
+  .thirdChildDiv1-Sar{
+      /* margin-left: 100px; */
+      /* margin-right: 100px; */
+      margin-top: 30px;
+      border: 1px solid transparent;
+      border-radius: 10px; 
+      /* padding-right: 20px; */
+      margin-right: 20px;
+      /* background-color:black; */
+      /* height: 249px; */
+      height: 260px;
+      width: 320px;
+      border-radius: 10px;
+      background-image: url("	https://images.deliveryhero.io/image/fd-pk/city-tile/city-tile-Sargodha.jpg?width=400");
+      background-repeat: no-repeat;
+  
+  }
+  
+  .thirdChildDiv1-Shi{
+      /* margin-left: 100px; */
+      /* margin-right: 100px; */
+      margin-top: 30px;
+      border: 1px solid transparent;
+      border-radius: 10px; 
+      /* padding-right: 20px; */
+      margin-right: 20px;
+      /* background-color:black; */
+      /* height: 249px; */
+      height: 260px;
+      width: 320px;
+      border-radius: 10px;
+      background-image: url("	https://images.deliveryhero.io/image/fd-pk/city-tile/city-tile-Sheikhupura.jpg.jpg?width=400");
+      background-repeat: no-repeat;
+  
+  }
+  
+  .thirdChildDiv1-Sia{
+      /* margin-left: 100px; */
+      /* margin-right: 100px; */
+      margin-top: 30px;
+      border: 1px solid transparent;
+      border-radius: 10px; 
+      /* padding-right: 20px; */
+      margin-right: 20px;
+      /* background-color:black; */
+      /* height: 249px; */
+      height: 260px;
+      width: 320px;
+      border-radius: 10px;
+      background-image: url("	https://images.deliveryhero.io/image/foodpanda/city-tile-pk/Sialkot.jpg?width=400");
+      background-repeat: no-repeat;
+  
+  }
+  
+  .thirdChildDiv1-WC{
+      /* margin-left: 100px; */
+      /* margin-right: 100px; */
+      margin-top: 30px;
+      border: 1px solid transparent;
+      border-radius: 10px; 
+      /* padding-right: 20px; */
+      margin-right: 20px;
+      /* background-color:black; */
+      /* height: 249px; */
+      height: 260px;
+      width: 320px;
+      border-radius: 10px;
+      background-image: url("https://images.deliveryhero.io/image/fd-pk/city-tile/city-tile-WahhCannt.jpg?width=400");
+      background-repeat: no-repeat;
+  
+  }
+  
+  /* .thirdChildDiv1-2 img{
+      margin-top: 10px;
+      margin-bottom: 10px;
+      border: 1px solid transparent;
+      border-radius: 10px;
+  } */
+  
+  .btnss{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 0px 0.10px 10px silver;
+    margin-top: 200px;
+    margin-left: 20px;
+    width: 120px;
+    height: 50px;
+    font-size: 20px;
+  }
+  
+  /* forth main div styling */
+  
+  .forthChildDivtext{
+      font-size: 30px;
+      margin-top: 80px;
+      margin-left: 100px;
+  }
+  
+  .pinkDiv{
+      margin-top: 20px;
+      margin-left: 100px;
+      margin-right: 100px;
+      width: 1330px;
+      height: 350px;
+      background-color: #e21b70;
+      border: 1px solid #e21b70;
+      border-radius: 10px;
+      margin-bottom: 100px;
+  }
+  
+  .mobilePic{
+  
+      margin-left: 700px;
+      /* margin-right: 300px; */
+      margin-top: -80px;
+      height: 500px;
+  }
+  
+  .forthChildDivtext2{
+      color: white;
+      font-size: 25px;
+      margin-top: -380px;
+      margin-left: 25px;
+  }
+  
+  .scanDiv{
+      width: 95px;
+      height: 95px;
+      border: 1px solid white;
+      border-radius: 5px;
+      margin-left: 25px;
+      margin-top: 25px;
+  }
+  .scan{
+      height: 95px;
+      width: 95px;
+      /* padding: 10px; */
+      padding: 10px;
+      padding-left: 8px;
+      padding-top: 8px;
+  }
+  
+  .scanText{
+      color: white;
+      font-size: 20px;
+      margin-top: -90px;
+      margin-left: 150px;
+  
+  }
+  
+  .appStore{
+      height: 40px;
+      width: 120px;
+      margin-left: 25px;
+      margin-top: 30px;
+  
+  }
+  
+  /* forth main div styling ended */
+  
+  /* fifth main div styling started */
+  
+  .fifthMainDivimg{
+      height: 400px;
+      /* width: 2000px; */
+      margin-bottom: 70px;
+      margin-top: 220px;
+      background-image: url("	https://images.deliveryhero.io/image/foodpanda/home-corporate-pk.jpg?width=1550&height=384");
+      background-repeat: no-repeat;
+  }
+  .fifthMainDivtext{
+      font-size: 30px;
+      margin-left: 90px;
+      margin-bottom: -190px;
+      margin-top: 100px;
+  }
+  
+  .foodpandaForBuisnessbox{
+      height: 200px;
+      width: 620px;
+      margin-left:100px;
+      margin-top: -200px;
+      color: black;
+      background-color: white;
+      border-radius:10px;
+      box-shadow: 0px 0.10px 10px silver;
+      margin-bottom: 50px;
+  }
+  
+  .foodpandaForBuisnessbox1{
+      font-size: 20px;
+      margin-left: 30px;
+      padding-top: 20px;
+  }
+  
+  .foodpandaForBuisnessbox2{
+      margin-left: 30px;
+      padding-top: 30px;
+  
+  }
+  
+  .getStarted{
+      background-color: #e21b70;
+      color: white;
+      border: 1px solid #e21b70;
+      border-radius: 8px;
+      height: 45px;
+      width: 110px;
+      padding: 5px;
+      padding-left: 5px;
+      padding-right: 5px;
+      margin-left: 30px;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      font-size: medium;
+      font-weight: bold;
+      
+  }
+  
+  .sixthMainDivheadings{
+      margin-left: 120px;
+      margin-top: 150px;
+  }
+  
+  .sixthMainDivtexts{
+      margin-left: 120px;
+      margin-top: 20px;
+      color: gray;
+  }
+  
+  .sixthMainDivsubHeadings{
+      margin-left: 120px;
+      margin-top: 20px;
+      /* color: gray; */
+  }
+  
+  .sixthMainDiv{
+      margin-bottom: 200px;
+  }
+  
+  /* sixth main div styling ended */
+  
+  
+  .lastChildDivlist{
+      display: flex;
+      margin-left: 120px;
+      margin-top: 20px;
+      color: gray;
+      list-style: none;
+  }
+  
+  .lastChildDivspan{
+      margin-left: 15px;
+  }
+  
+  .lastChildDivli{
+   margin-left: 10px;
+  }
+  
+  .lastChildDivli:hover{
+      color: #e21b70;
+  }
+  
+  .hr{
+      border: 1px solid rgba(192, 192, 192, 0.347);
+      margin-left: 120px;
+      margin-right: 120px;
+      margin-top: -20px;
+  }
+  
+  .lastChildDiv2{
+      margin-top: 50px;
+  }
+  
+  .lastChildDiv2Table{
+      margin-top: 20px;
+      margin-left:120px ;
+  }
+  
+      /* Table styling */
+  
+  .tdFirst{
+      margin-left: 10px;
+      color: gray;
+      font-weight: bold;
+  }    
+  
+  .tdSecond{
+      padding-left: 270px;
+      color: #e21b70;
+      padding-top: 20px;
+      font-weight: bold;
+  }    
+  
+  .tdThird{
+      padding-left: 100px;
+      color: #e21b70;
+      padding-top: 20px;
+      font-weight: bold;
+  } 
+  
+  .tdForth{
+      padding-left: 100px;
+      color: #e21b70;
+      padding-top: 20px;
+      font-weight: bold;
+  } 
+  
